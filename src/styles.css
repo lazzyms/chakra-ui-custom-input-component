@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.searchbox {
+  width: 100%;
+  position: relative !important;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.searchLabel {
+  font-size: 11px;
+  color: black;
+  line-height: 1.2;
+  padding: 15px 0 2px 24px;
+  display: block;
+  margin: 0;
+}
+
+.searchInput {
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0 26px;
+  outline: none;
+  border: none !important;
+  margin: 0;
+  touch-action: manipulation;
+  overflow: visible;
+}
+
+.searchFocus {
+  position: absolute;
+  border: none !important;
+  display: block;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  top: -1px;
+  left: -1px;
+  pointer-events: none;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
